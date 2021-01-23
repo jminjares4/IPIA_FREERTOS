@@ -47,4 +47,4 @@ under &lt;SDK_INSTALL_DIR&gt;/kernel/tirtos/builds/&lt;BOARD&gt;/(release|debug)
 FreeRTOS:
 
 * Please view the `FreeRTOSConfig.h` header file for example configuration
-information.
+information. 
