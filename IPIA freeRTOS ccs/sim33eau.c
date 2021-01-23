@@ -11,7 +11,8 @@ void GPS_init(){
     UART_init();
     /*Set PIN as OUTPUT*/
     GPIO_setConfig(SIM33EAU_EN, GPIO_CFG_OUT_STD | GPIO_CFG_OUT_LOW);
-
+    GPIO_write(SIMM33EAU_EN, 1);
+    
     UART_Params uartParams;
     /*Set UART Parameter to default*/
     UART_Params_init(&uartParams);
@@ -66,7 +67,8 @@ void GPS_read(uint8_t totalRead){
 }
 /*GPS stop will toggle enable pin to turn off sim33eau*/
 void GPS_stop(){
-    GPIO_write(SIM33EAU_EN, 1); // turn off GPS
+    GPIO_write(SIM33EAU_EN, 0); // turn off GPS
+    usleep(10000);
 }
 /*Set SysTime structure with UTC_TIME data*/
 SysTime setSysTime(const UTC_TIME  *gpsUtcTime){
