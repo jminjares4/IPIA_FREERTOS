@@ -3,10 +3,10 @@
 ## **Description**
 This is the source code of our capstone project for Electrical and Computer Engineering department at `University of Texas at El Paso` *`(UTEP)`*. 
 
-## **Functional Decompostion Level 3**
+## **Functional Decompostion**
 <img src="images/FunctionalDecompositionLvl3.png">
 
-  * IPIA Functional Decompostion
+  * IPIA Functional Decompostion Level 3
 ## **System Integration**
 <img src="images/ipia_pcb.png">
 
