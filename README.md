@@ -31,8 +31,8 @@ This is the source code of our capstone project for Electrical and Computer Engi
 - [x] Solar tracker to find optimal postion for the battery charger 
 
 ## **IPIA Data Capture**
-To visualize the data that was being capture, a python script was develop that will read the data being transmitted via the wireless communication. 
-The script will use `pyserial` and `matplotlib` to send the data capture from the `HC-05 Module` and store it into a csv file. Here is small demostration.
+To visualize the data that was being capture, a python script was develop that reads the data being transmitted via the wireless communication. 
+The script uses `pyserial` and `matplotlib` packages to send the capture data from the `HC-05 Module` and store it into a csv file. Here is small demostration.
 
 <img src="gif/ipia_reading.gif">
 
