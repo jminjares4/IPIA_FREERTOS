@@ -22,6 +22,22 @@ This is the source code of our capstone project for Electrical and Computer Engi
 - Mariano Urbina
   - Hardware design  
 
+## **Table of Contents**
+├── [Firmware]()
+  ├── drivers
+  ├── inc
+  ├── ipia.c
+  ├── main_freertos.c
+├── [Hardware]()
+    ├── schematic1.0.sch
+    ├── images
+├── [Media]()
+    ├── gif
+    ├── images
+    ├── video
+├── Readme
+
+
 ## **Requirements**
 - [x] Firmware running at real-time 
 - [x] Read pressure sensor at 100hertz
