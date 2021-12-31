@@ -1,9 +1,9 @@
 /*
  *  ======== sim33eau.c ========
- *   Authors:   Jesus Minjares, MS in Computer Engineering
- *              Erick A. Baca, MS in Computer Engineering
+ *   Authors:   Jesus Minjares, Bachelor of Science in Electrical Engineering
+ *              Erick A. Baca, Bachelor of Science in Electrical Engineering
  */
-#include "sim33eau.h"
+#include "inc/sim33eau.h"
 /*Initialize GPS*/
 void GPS_init(){
     /*Initialize Drivers*/

@@ -1,9 +1,9 @@
 /*
  *  ======== PressureSensor.c ========
- *   Authors:   Jesus Minjares, MS in Computer Engineering
- *              Erick A. Baca, MS in Computer Engineering
+ *   Authors:   Jesus Minjares, Bachelor of Science in Electrical Engineering
+ *              Erick A. Baca, Bachelor of Science in Electrical Engineering
  */
-#include "PressureSensor.h"
+#include "inc/PressureSensor.h"
 /*Initialize Pressure Sensor Driver*/
 void Pressure_Sensor_init(void){
     adcAvg = 0; //set global value to 0

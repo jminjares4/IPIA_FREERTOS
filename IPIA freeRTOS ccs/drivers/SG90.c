@@ -1,9 +1,9 @@
 /*
  *  ======== SG90.c ========
- *   Authors:   Jesus Minjares, MS in Computer Engineering
- *              Erick A. Baca, MS in Computer Engineering
+ *   Authors:   Jesus Minjares, Bachelor of Science in Electrical Engineering
+ *              Erick A. Baca, Bachelor of Science in Electrical Engineering
  */
-#include "SG90.h"
+#include "inc/SG90.h"
 /*Initialize S90 Driver*/
 void SG90_init(uint_least8_t index, PWM_Handle *motorHandle){
     /*Initialize PWM Driver*/

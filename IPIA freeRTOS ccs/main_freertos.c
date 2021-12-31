@@ -1,7 +1,7 @@
 /*
  *  ======== main_freertos.c ========
- *   Authors:   Jesus Minjares, MS in Computer Engineering
- *              Erick A. Baca, MS in Computer Engineering
+ *   Authors:   Jesus Minjares, Bachelor of Science in Electrical Engineering
+ *              Erick A. Baca, Bachelor of Science in Electrical Engineering
  */
 #include <stdint.h>
 

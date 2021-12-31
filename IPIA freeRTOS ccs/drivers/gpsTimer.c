@@ -1,9 +1,9 @@
 /*
  *  ======== gpsTimer.c ========
- *   Authors:   Jesus Minjares, MS in Computer Engineering
- *              Erick A. Baca, MS in Computer Engineering
+ *   Authors:   Jesus Minjares, Bachelor of Science in Electrical Engineering
+ *              Erick A. Baca, Bachelor of Science in Electrical Engineering
  */
-#include "gpsTimer.h"
+#include "inc/gpsTimer.h"
 /*Initialize GPS Timer Driver*/
 void GPS_TIMER_init(){
     /*Initialize Timer Dirver*/

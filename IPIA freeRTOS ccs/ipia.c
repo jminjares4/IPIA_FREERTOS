@@ -1,7 +1,7 @@
 /*
  *  ======== ipia.c ========
- *   Authors:   Jesus Minjares, MS in Computer Engineering
- *              Erick A. Baca, MS in Computer Engineering
+ *   Authors:   Jesus Minjares, Bachelor of Science in Electrical Engineering
+ *              Erick A. Baca, Bachelor of Science in Electrical Engineering
  */
 /* For usleep() */
 #include <unistd.h>
@@ -16,11 +16,11 @@
 #include <ti/drivers/ADC.h>
 #include <semaphore.h>
 
-#include "bluetooth.h"
-#include "sim33eau.h"
-#include "gpsTimer.h"
-#include "SG90.h"
-#include "PressureSensor.h"
+#include "inc/bluetooth.h"
+#include "inc/sim33eau.h"
+#include "inc/gpsTimer.h"
+#include "inc/SG90.h"
+#include "inc/PressureSensor.h"
 /* Driver configuration */
 #include "ti_drivers_config.h"
 #define SOLAR_SAMPLE 5

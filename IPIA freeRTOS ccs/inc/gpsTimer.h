@@ -1,7 +1,7 @@
 /*
  *  ======== gpsTimer.h ========
- *   Authors:   Jesus Minjares, MS in Computer Engineering
- *              Erick A. Baca, MS in Computer Engineering
+ *   Authors:   Jesus Minjares, Bachelor of Science in Electrical Engineering
+ *              Erick A. Baca, Bachelor of Science in Electrical Engineering
  */
 #ifndef GPSTIMER_H_
 #define GPSTIMER_H_

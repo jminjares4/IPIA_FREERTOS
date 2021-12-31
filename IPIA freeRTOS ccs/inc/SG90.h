@@ -1,7 +1,7 @@
 /*
  *  ======== SG90.h ========
- *   Authors:   Jesus Minjares, MS in Computer Engineering
- *              Erick A. Baca, MS in Computer Engineering
+ *   Authors:   Jesus Minjares, Bachelor of Science in Electrical Engineering
+ *              Erick A. Baca, Bachelor of Science in Electrical Engineering
  */
 #ifndef SG90_H_
 #define SG90_H_

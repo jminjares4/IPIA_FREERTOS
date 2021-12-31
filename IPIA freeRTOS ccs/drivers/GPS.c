@@ -4,7 +4,7 @@
     This library is design to organize the NMEA format gather from
     GPS Module(SIM33EAU) by Serial Communication.
 */
-#include "GPS.h"
+#include "inc/GPS.h"
 /**
  * USE:       Print the GNRMC structure
  * PARAMETER: expected reference to a NMEA_GNRMC structure
