@@ -16,6 +16,7 @@ To visualize the data that was being capture, a python script was develop that w
 The script will use `pyserial` and `matplotlib` to send the data capture from the `HC-05 Module` and store it into a csv file. Here is small demostration.
 
 <img src="gif/ipia_reading.gif">
+
 * [Jesus Minjares Python Script](https://github.com/jminjares4/Plotting-Sensor-Data)
 
 ## **Software**
