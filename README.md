@@ -34,11 +34,11 @@ This is the source code of our capstone project for Electrical and Computer Engi
 To visualize the data that was being capture, a python script was develop that reads the data being transmitted via the wireless communication. 
 The script uses `pyserial` and `matplotlib` packages to send the capture data from the `HC-05 Module` and store it into a csv file. Here is small demostration.
 
-<img src="gif/ipia_reading.gif">
+<img src="media/gif/ipia_reading.gif">
 
 * [Jesus Minjares Python Script](https://github.com/jminjares4/Plotting-Sensor-Data)
 ## **Solar Tracker**
-<img src="gif/solarTracker.gif" height="750" width="500">
+<img src="media/gif/solarTracker.gif" height="750" width="500">
 
 ## **Software**
 ![](https://img.shields.io/badge/Code-C-informational?style=flat&logo=C&color=003B57)
