@@ -23,15 +23,15 @@ This is the source code of our capstone project for Electrical and Computer Engi
   - Hardware design  
 
 ## **Table of Contents**
-├── [Firmware]()
+├── [Firmware](https://github.com/jminjares4/IPIA_FREERTOS/tree/main/Firmware)
   ├── drivers
   ├── inc
   ├── ipia.c
   ├── main_freertos.c
-├── [Hardware]()
+├── [Hardware](https://github.com/jminjares4/IPIA_FREERTOS/tree/main/Hardware)
     ├── schematic1.0.sch
     ├── images
-├── [Media]()
+├── [Media](https://github.com/jminjares4/IPIA_FREERTOS/tree/main/media)
     ├── gif
     ├── images
     ├── video
