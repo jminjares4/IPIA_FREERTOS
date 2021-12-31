@@ -7,7 +7,7 @@ This is the source code of our capstone project for Electrical and Computer Engi
 - [Erick A Baca](https://github.com/eabaca2419)
   - Hardware testing and system integration
 - [Jesus Minjares](https://github.com/jminjares4)
-  - Embedded Software and Firmware testing
+  - Embedded software and firmware testign
 - Cynthia Oaxaca
   - Power System
 - Mariano Urbina
