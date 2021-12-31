@@ -3,15 +3,6 @@
 ## **Description**
 This is the source code of our capstone project for Electrical and Computer Engineering department at `University of Texas at El Paso` *`(UTEP)`*. 
 
-## **Functional Decompostion**
-<img src="media/images/FunctionalDecompositionLvl3.png">
-
-  * IPIA Functional Decompostion Level 3
-## **System Integration**
-<img src="media/images/ipia_pcb.png">
-
-* IPIA System Integration
-
 ## **Team Members**
 - [Erick A Baca](https://github.com/eabaca2419)
   - Hardware testing and system integration
