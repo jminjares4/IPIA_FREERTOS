@@ -1,17 +1,26 @@
 # **Intelligent Portable Infrasound Array (IPIA)** :zap:
 
 ## **Description**
-This is the source code of our capstone project for Electrical and Computer Engineering department at `University of Texas at El Paso` *`(UTEP)`*. Our contribution to the project was to develop the firmware of the system.
+This is the source code of our capstone project for Electrical and Computer Engineering department at `University of Texas at El Paso` *`(UTEP)`*. 
+
+## **Functional Decompostion Level 3**
+<img src="images/FunctionalDecompositionLvl3.png">
+
+  * IPIA Functional Decompostion
+## **System Integration**
+<img src="images/ipia_pcb.png">
+
+* IPIA System Integration
 
 ## **Team Members**
 - [Erick A Baca](https://github.com/eabaca2419)
   - Hardware testing and system integration
 - [Jesus Minjares](https://github.com/jminjares4)
-  - Embedded software and firmware testign
+  - Embedded software and firmware testing
 - Cynthia Oaxaca
   - Power System
 - Mariano Urbina
-  - Hardware and PCB design  
+  - Hardware design  
 
 ## **Requirements**
 - [x] Firmware running at real-time 
