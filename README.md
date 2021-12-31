@@ -29,14 +29,13 @@ This is the source code of our capstone project for Electrical and Computer Engi
   ├── ipia.c
   ├── main_freertos.c
 ├── [Hardware](https://github.com/jminjares4/IPIA_FREERTOS/tree/main/Hardware)
-    ├── schematic1.0.sch
-    ├── images
+  ├── schematic1.0.sch
+  ├── images
 ├── [Media](https://github.com/jminjares4/IPIA_FREERTOS/tree/main/media)
-    ├── gif
-    ├── images
-    ├── video
+  ├── gif
+  ├── images
+  ├── video
 ├── Readme
-
 
 ## **Requirements**
 - [x] Firmware running at real-time 
