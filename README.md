@@ -37,6 +37,8 @@ The script uses `pyserial` and `matplotlib` packages to send the capture data fr
 <img src="gif/ipia_reading.gif">
 
 * [Jesus Minjares Python Script](https://github.com/jminjares4/Plotting-Sensor-Data)
+## **Solar Tracker**
+<img src="gif/solarTracker.gif">
 
 ## **Software**
 ![](https://img.shields.io/badge/Code-C-informational?style=flat&logo=C&color=003B57)
