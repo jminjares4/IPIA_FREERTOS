@@ -46,11 +46,6 @@ The script uses `pyserial` and `matplotlib` packages to send the capture data fr
 ## **Solar Tracker**
 <img src="media/gif/solarTracker.gif" height="750" width="500">
 
-## **Software**
-![](https://img.shields.io/badge/Code-C-informational?style=flat&logo=C&color=003B57)
-![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=Python&color=764ABC)
-
-
 ## **Development**
 | **IPIA** | **Hardware/Software**|
 | :--- | :--- |
