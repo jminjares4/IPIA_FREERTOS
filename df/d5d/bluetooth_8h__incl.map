@@ -1,0 +1,13 @@
+<map id="Firmware/inc/bluetooth.h" name="Firmware/inc/bluetooth.h">
+<area shape="rect" id="node1" title="Bluetooth driver." alt="" coords="124,5,288,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="63,155,130,181"/>
+<area shape="rect" id="node3" title=" " alt="" coords="23,80,87,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="112,80,180,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="204,80,327,107"/>
+<area shape="rect" id="node6" href="$db/d56/_g_p_s_8h.html" title="GPS NMEA custom API." alt="" coords="352,80,412,107"/>
+<area shape="rect" id="node11" title=" " alt="" coords="436,80,562,107"/>
+<area shape="rect" id="node7" title=" " alt="" coords="221,155,284,181"/>
+<area shape="rect" id="node8" title=" " alt="" coords="308,155,368,181"/>
+<area shape="rect" id="node9" title=" " alt="" coords="392,155,456,181"/>
+<area shape="rect" id="node10" title=" " alt="" coords="480,155,555,181"/>
+</map>

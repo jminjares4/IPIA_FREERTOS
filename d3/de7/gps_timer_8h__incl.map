@@ -1,0 +1,16 @@
+<map id="Firmware/inc/gpsTimer.h" name="Firmware/inc/gpsTimer.h">
+<area shape="rect" id="node1" title="GPS Timer driver source code." alt="" coords="341,5,507,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="237,80,355,107"/>
+<area shape="rect" id="node3" href="$de/d00/sim33eau_8h.html" title="sim33eau driver" alt="" coords="380,80,468,107"/>
+<area shape="rect" id="node14" title=" " alt="" coords="611,155,738,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,155,128,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="153,155,271,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="312,229,379,256"/>
+<area shape="rect" id="node7" title=" " alt="" coords="347,155,411,181"/>
+<area shape="rect" id="node8" title=" " alt="" coords="435,155,503,181"/>
+<area shape="rect" id="node9" href="$db/d56/_g_p_s_8h.html" title="GPS NMEA custom API." alt="" coords="527,155,587,181"/>
+<area shape="rect" id="node10" title=" " alt="" coords="422,229,485,256"/>
+<area shape="rect" id="node11" title=" " alt="" coords="509,229,569,256"/>
+<area shape="rect" id="node12" title=" " alt="" coords="593,229,657,256"/>
+<area shape="rect" id="node13" title=" " alt="" coords="681,229,756,256"/>
+</map>
