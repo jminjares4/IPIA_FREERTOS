@@ -1,5 +1,8 @@
 # Intelligent Portable Infrasound Array (IPIA)
 
+## Status
+[![Doxygen Action](https://github.com/jminjares4/IPIA_FREERTOS/actions/workflows/main.yml/badge.svg)](https://github.com/jminjares4/IPIA_FREERTOS/actions/workflows/main.yml) [![pages-build-deployment](https://github.com/jminjares4/IPIA_FREERTOS/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/jminjares4/IPIA_FREERTOS/actions/workflows/pages/pages-build-deployment)
+
 ## Description
 This is the source code of our `(Spring-Fall 2020)` capstone project for Electrical and Computer Engineering department at **University of Texas at El Paso** ***(UTEP)***.
 
