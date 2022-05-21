@@ -26,15 +26,16 @@ var NAVTREE =
 [
   [ "IPIA Senior Project", "index.html", [
     [ "Intelligent Portable Infrasound Array (IPIA)", "index.html", [
-      [ "Description", "index.html#autotoc_md7", null ],
-      [ "Team Members", "index.html#autotoc_md8", null ],
-      [ "Table of Contents", "index.html#autotoc_md9", null ],
-      [ "Requirements", "index.html#autotoc_md10", null ],
-      [ "IPIA Data Capture", "index.html#autotoc_md11", null ],
-      [ "Development", "index.html#autotoc_md12", null ],
-      [ "IPIA License and Release", "index.html#autotoc_md13", null ],
-      [ "Acknowledgements", "index.html#autotoc_md14", null ],
-      [ "Authors:", "index.html#autotoc_md15", null ]
+      [ "Status", "index.html#autotoc_md7", null ],
+      [ "Description", "index.html#autotoc_md8", null ],
+      [ "Team Members", "index.html#autotoc_md9", null ],
+      [ "Table of Contents", "index.html#autotoc_md10", null ],
+      [ "Requirements", "index.html#autotoc_md11", null ],
+      [ "IPIA Data Capture", "index.html#autotoc_md12", null ],
+      [ "Development", "index.html#autotoc_md13", null ],
+      [ "IPIA License and Release", "index.html#autotoc_md14", null ],
+      [ "Acknowledgements", "index.html#autotoc_md15", null ],
+      [ "Authors:", "index.html#autotoc_md16", null ]
     ] ],
     [ "Hardware", "dd/dcf/md_doc_pages_hardware.html", [
       [ "Functional Decompostion", "dd/dcf/md_doc_pages_hardware.html#autotoc_md1", null ],
