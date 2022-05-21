@@ -1,10 +1,17 @@
-/*
- *  ======== SG90.c ========
- *   Authors:   Jesus Minjares, Bachelor of Science in Electrical Engineering
- *              Erick A. Baca, Bachelor of Science in Electrical Engineering
+/**
+ * @file SG90.c
+ * @author Jesus Minjares @see https://github.com/jminjares4 
+ * @author Erick A. Baca  @see https://github.com/eabaca2419 
+ * @brief SG90 driver source code 
+ * @version 0.1
+ * @date 2022-05-20
+ * 
+ * @copyright Copyright (c) 2022
+ * 
  */
+
 #include "inc/SG90.h"
-/*Initialize S90 Driver*/
+
 void SG90_init(uint_least8_t index, PWM_Handle *motorHandle){
     /*Initialize PWM Driver*/
     PWM_init();
@@ -24,14 +31,14 @@ void SG90_init(uint_least8_t index, PWM_Handle *motorHandle){
     }
     return;
 }
-/*Set Sg90 duty cycle*/
+
 void SG90_setDuty(PWM_Handle motor, uint32_t duty){
     /*Set motor duty cycle*/
     if(PWM_setDuty(motor, duty) == PWM_STATUS_ERROR){    //Set duty and check for status error
        PWM_setDuty(motor, duty);                        //If error reset duty
     }
 }
-/*Start SG90 Motor*/
+
 void SG90_start(PWM_Handle motorHandle){
     /*Start SG90 Motor*/
     PWM_start(motorHandle);

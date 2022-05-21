@@ -1,30 +1,70 @@
-/*
- *  ======== PressureSensor.h ========
- *   Authors:   Jesus Minjares, Bachelor of Science in Electrical Engineering
- *              Erick A. Baca, Bachelor of Science in Electrical Engineering
+/**
+ * @file PressureSensor.h
+ * @author Jesus Minjares @see https://github.com/jminjares4 
+ * @author Erick A. Baca  @see https://github.com/eabaca2419 
+ * @brief Pressure sensor driver
+ * @version 0.1
+ * @date 2022-05-20
+ * 
+ * @copyright Copyright (c) 2022
+ * 
  */
+
 #ifndef PRESSURESENSOR_H_
 #define PRESSURESENSOR_H_
 #include <unistd.h>
 #include <stdint.h>
 #include <stddef.h>
-#include <ti/drivers/Timer.h>
 #include <ti/drivers/ADC.h>
 #include <semaphore.h>
 #include "ti_drivers_config.h"
 /* ADC semaphore */
 sem_t pressureSensorSem;
 /*Global Variables*/
-#define PRESSURE_SENSOR_SAMPLE 10
-uint16_t adcBuf[PRESSURE_SENSOR_SAMPLE];
-uint32_t adcAvg;
-ADC_Handle adcHandle;\
-/*Initialize Pressure Sensor Driver*/
+#define PRESSURE_SENSOR_SAMPLE 10           /*!< Pressure Sensor Max Samples */
+uint16_t adcBuf[PRESSURE_SENSOR_SAMPLE];    /*!< ADC data buffer */
+uint32_t adcAvg;                            /*!< ADC average */
+ADC_Handle adcHandle;                       /*!< ADC handle */
+
+/******************************************************************
+ * \brief Pressure Sensor Initialize
+ * 
+ * Detailed description starts here 
+ * @param void		No argument
+ * @return None
+ *******************************************************************/
 void Pressure_Sensor_init(void);
 /*Initialize Pressure Sensor Timer*/
+
+/******************************************************************
+ * \brief Pressure Sensor Timer Initialize
+ * 
+ * Detailed description starts here 
+ * @param pressureSensorHandle  pressure sensor timer handle
+ * @param pressureSensorParam   pressure sensor timer parameters
+ * @param hertz                 pressure sensor timer frequency
+ * @return None
+ *******************************************************************/
 void Pressure_Sensor_Timer_init(Timer_Handle *pressureSensorHandle, Timer_Params *pressureSensorParam,uint16_t hertz);
-/*Start Pressure Sensor Timer*/
+
+/******************************************************************
+ * \brief Pressure Sensor Timer Start
+ * 
+ * Detailed description starts here 
+ * @param pressureSensorHandle  pressure sensor timer handle
+ * @param pressureSensorParam   pressure sensor timer parameters
+ * @return None
+ *******************************************************************/
 void Pressure_Sensor_start(Timer_Handle *pressureSensorHandle, Timer_Params *pressureSensorParam);
-/*Pressure Sensor Callback*/
+
+
+/******************************************************************
+ * \brief Pressure Sensor Timer Callback
+ * 
+ * Detailed description starts here 
+ * @param handle  pressure sensor timer handle
+ * @return None
+ *******************************************************************/
 void pressureSensorCallback(Timer_Handle handle);
+
 #endif /* PRESSURESENSOR_H_ */

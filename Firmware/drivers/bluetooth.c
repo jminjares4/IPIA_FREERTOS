@@ -1,11 +1,18 @@
-/*
- *  ======== bluetooth.c ========
- *  Authors:    Jesus Minjares, Bachelor of Science in Electrical Engineering
- *              Erick A. Baca, Bachelor of Science in Electrical Engineering
+/**
+ * @file bluetooth.c
+ * @author Jesus Minjares @see https://github.com/jminjares4 
+ * @author Erick A. Baca  @see https://github.com/eabaca2419 
+ * @brief Bluetooth driver source code
+ * @version 0.1
+ * @date 2022-05-20
+ * 
+ * @copyright Copyright (c) 2022
+ * 
  */
+
 #include "inc/bluetooth.h"
-/* Initialize Bluetooth Driver */
-void bluetooth_init(){
+
+void bluetooth_init(void){
     /*UART Driver*/
     UART_init();
     UART_Params bluetoothUartParams;
@@ -34,11 +41,12 @@ void bluetooth_init(){
     return;
 }
 
-/*bluetooth*/
+
 void bluetooth_char(char *buffer, char c, uint32_t *index){
     buffer[*index] = c;
     *index = *index + 1;
 }
+
 void bluetooth_string(char *buffer, char *string, uint32_t *index){
     /*while the string is not the null character*/
     while(*string){
@@ -46,7 +54,7 @@ void bluetooth_string(char *buffer, char *string, uint32_t *index){
         string++;
     }
 }
-/*Thanks! https://github.com/grbl/grbl/blob/master/grbl/print.c */
+
 void bluetooth_integer(char *buffer, int integer, uint32_t *index){
     if(integer == 0){
         bluetooth_char(buffer, '0', index);
@@ -70,7 +78,7 @@ void bluetooth_integer(char *buffer, int integer, uint32_t *index){
         i--;
     }
 }
-/*Thanks! https://github.com/grbl/grbl/blob/master/grbl/print.c */
+
 void bluetooth_float(char *buffer, float n, uint8_t decimal_places, uint32_t *index){
     if (n < 0){
         bluetooth_char(buffer, '-', index);
@@ -125,7 +133,7 @@ void bluetooth_float(char *buffer, float n, uint8_t decimal_places, uint32_t *in
         bluetooth_char(buffer, buf[i-1], index);
     }
 }
-/*Thanks! https://github.com/grbl/grbl/blob/master/grbl/print.c */
+
 void bluetooth_sprintf(char *buffer, const char *fs, ...){
     va_list valist;
     va_start(valist, fs);
@@ -164,7 +172,7 @@ void bluetooth_sprintf(char *buffer, const char *fs, ...){
 
     buffer[index] = '\0';
 }
-/*send message via bluetooth using sprintf*/
+
 void bluetooth_send(const COORDINATE *coordinate, const SysTime *sysTime, uint32_t adc){
     bluetooth_sprintf(bluetooth_buffer, "DATA:%f,%f,%u:%u:%u:%u,%i\r\n", coordinate->latitude,
                                                                          coordinate->longitude,

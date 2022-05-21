@@ -1,10 +1,17 @@
-/*
- *  ======== PressureSensor.c ========
- *   Authors:   Jesus Minjares, Bachelor of Science in Electrical Engineering
- *              Erick A. Baca, Bachelor of Science in Electrical Engineering
+/**
+ * @file PressureSensor.c
+ * @author Jesus Minjares @see https://github.com/jminjares4 
+ * @author Erick A. Baca  @see https://github.com/eabaca2419 
+ * @brief Pressure Sensor driver source code 
+ * @version 0.1
+ * @date 2022-05-20
+ * 
+ * @copyright Copyright (c) 2022
+ * 
  */
+
 #include "inc/PressureSensor.h"
-/*Initialize Pressure Sensor Driver*/
+
 void Pressure_Sensor_init(void){
     adcAvg = 0; //set global value to 0
     /*Initialize ADC Driver*/
@@ -20,7 +27,7 @@ void Pressure_Sensor_init(void){
     }
     return;
 }
-/*Initialize Pressure Sensor Timer*/
+
 void Pressure_Sensor_Timer_init(Timer_Handle *pressureSensorHandle, Timer_Params *pressureSensorParam,uint16_t hertz){
     /*Initialize Timer Driver*/
     Timer_init();
@@ -33,7 +40,7 @@ void Pressure_Sensor_Timer_init(Timer_Handle *pressureSensorHandle, Timer_Params
     pressureSensorParam->timerMode = Timer_CONTINUOUS_CALLBACK;
     return;
 }
-/*Start Pressure Sensor Timer*/
+
 void Pressure_Sensor_start(Timer_Handle *pressureSensorHandle, Timer_Params *pressureSensorParam){
     /*Open Pressure Sensor Timer Instance*/
     *pressureSensorHandle = Timer_open(PRESSURE_SENSOR_TIMER, pressureSensorParam);
@@ -47,7 +54,7 @@ void Pressure_Sensor_start(Timer_Handle *pressureSensorHandle, Timer_Params *pre
     }
     return;
 }
-/*Pressure Sensor Callback*/
+
 void pressureSensorCallback(Timer_Handle handle){
     adcAvg = 0; //reset value @ 0
     static int i = 0; //static variable

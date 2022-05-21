@@ -1,11 +1,18 @@
-/*
- *  ======== gpsTimer.c ========
- *   Authors:   Jesus Minjares, Bachelor of Science in Electrical Engineering
- *              Erick A. Baca, Bachelor of Science in Electrical Engineering
+/**
+ * @file gpsTimer.c
+ * @author Jesus Minjares @see https://github.com/jminjares4 
+ * @author Erick A. Baca  @see https://github.com/eabaca2419 
+ * @brief GPS Timer driver
+ * @version 0.1
+ * @date 2022-05-20
+ * 
+ * @copyright Copyright (c) 2022
+ * 
  */
+
 #include "inc/gpsTimer.h"
-/*Initialize GPS Timer Driver*/
-void GPS_TIMER_init(){
+
+void GPS_TIMER_init(void){
     /*Initialize Timer Dirver*/
     Timer_init();
     Timer_Params timerParams;
@@ -23,8 +30,8 @@ void GPS_TIMER_init(){
     }
     return;
 }
-/*Start GPS TIMER Driver*/
-void GPS_TIMER_start(){
+
+void GPS_TIMER_start(void){
     /*Start timer*/
     int32_t status = Timer_start(gpsTimerHandle);
     /*Check for STATUS ERROR*/
@@ -33,7 +40,7 @@ void GPS_TIMER_start(){
     }
     return;
 }
-/*GPS Timer Callback*/
+
 void timerCallback(Timer_Handle handle){
     /*every 100ms*/
     sysTime.milli+= 100; //incrmement every TA2 interval

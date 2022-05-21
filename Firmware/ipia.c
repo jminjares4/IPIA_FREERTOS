@@ -1,8 +1,15 @@
-/*
- *  ======== ipia.c ========
- *   Authors:   Jesus Minjares, Bachelor of Science in Electrical Engineering
- *              Erick A. Baca, Bachelor of Science in Electrical Engineering
+/**
+ * @file ipia.c
+ * @author Jesus Minjares @see https://github.com/jminjares4 
+ * @author Erick A. Baca  @see https://github.com/eabaca2419 
+ * @brief IPIA main
+ * @version 0.1
+ * @date 2022-05-20 
+ * 
+ * @copyright Copyright (c) 2022
+ * 
  */
+
 /* For usleep() */
 #include <unistd.h>
 #include <stdint.h>
@@ -23,9 +30,16 @@
 #include "inc/PressureSensor.h"
 /* Driver configuration */
 #include "ti_drivers_config.h"
-#define SOLAR_SAMPLE 5
 
-/*  ======== pressureSensorThread ========*/
+#define SOLAR_SAMPLE 5          /*!< Number of samples for solar tracker */
+
+/******************************************************************
+ * \brief Pressure Sensor Thread
+ * 
+ * Detailed description starts here 
+ * @param arg0		pressure sensor argument
+ * @return None
+ *******************************************************************/
 void *pressureSensorThread(void *arg0){
     /*Timer Variables*/
     Timer_Handle timerHandle;
@@ -50,7 +64,14 @@ void *pressureSensorThread(void *arg0){
         usleep(10000); //sleep 10us
     }
 }
-/*  ======== solarTrackerThread ========*/
+
+/******************************************************************
+ * \brief Solar Tracker Thread
+ * 
+ * Detailed description starts here 
+ * @param arg0		solar tracker argument
+ * @return None
+ *******************************************************************/
 void *solarTrackerThread(void *arg0){
     /*Variables*/
     uint16_t x = 0, y = 0, adcData, data = 0;
@@ -120,7 +141,14 @@ void *solarTrackerThread(void *arg0){
        }
    }
 }
-/*  ======== gpsThread ========*/
+
+/******************************************************************
+ * \brief GPS Thread
+ * 
+ * Detailed description starts here 
+ * @param arg0		GPS argument
+ * @return None
+ *******************************************************************/
 void *gpsThread(void *arg0){
    /*Initalize GPS drivers*/
     GPS_init();
