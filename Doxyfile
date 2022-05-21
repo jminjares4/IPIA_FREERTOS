@@ -964,6 +964,7 @@ RECURSIVE              = YES
 # run.
 
 EXCLUDE                = Firmware/README.md \
+                         Firmware/README.html   \
                          Firmware/targetConfigs \
                          Hardware/README.md     \
                          README.md              \
