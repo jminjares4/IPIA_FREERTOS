@@ -31,11 +31,12 @@ var NAVTREE =
       [ "Team Members", "index.html#autotoc_md9", null ],
       [ "Table of Contents", "index.html#autotoc_md10", null ],
       [ "Requirements", "index.html#autotoc_md11", null ],
-      [ "IPIA Data Capture", "index.html#autotoc_md12", null ],
-      [ "Development", "index.html#autotoc_md13", null ],
-      [ "IPIA License and Release", "index.html#autotoc_md14", null ],
-      [ "Acknowledgements", "index.html#autotoc_md15", null ],
-      [ "Authors:", "index.html#autotoc_md16", null ]
+      [ "Source Code", "index.html#autotoc_md12", null ],
+      [ "IPIA Data Capture", "index.html#autotoc_md13", null ],
+      [ "Development", "index.html#autotoc_md14", null ],
+      [ "IPIA License and Release", "index.html#autotoc_md15", null ],
+      [ "Acknowledgements", "index.html#autotoc_md16", null ],
+      [ "Authors:", "index.html#autotoc_md17", null ]
     ] ],
     [ "Hardware", "dd/dcf/md_doc_pages_hardware.html", [
       [ "Functional Decompostion", "dd/dcf/md_doc_pages_hardware.html#autotoc_md1", null ],
