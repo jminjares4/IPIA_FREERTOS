@@ -67,7 +67,7 @@ The script uses `pyserial` and `matplotlib` packages to send the capture data fr
 
 | **License** | **Latest Release**|
 | :---:   | :---: |
-|[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) | [![version](https://img.shields.io/badge/release-v1.0.0--ipia--fall--2020-red)](https://github.com/jminjares4/IPIA_FREERTOS/releases) |
+|[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) | [![Release](https://img.shields.io/github/v/release/jminjares4/IPIA_FREERTOS?include_releases)](https://github.com/jminjares4/IPIA_FREERTOS)    |
 
 
 ## **Acknowledgements**
