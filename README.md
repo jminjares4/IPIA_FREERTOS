@@ -1,7 +1,9 @@
 # **Intelligent Portable Infrasound Array (IPIA)** :zap:
 
 ## **Status**
-[![Doxygen Action](https://github.com/jminjares4/IPIA_FREERTOS/actions/workflows/main.yml/badge.svg)](https://github.com/jminjares4/IPIA_FREERTOS/actions/workflows/main.yml) [![pages-build-deployment](https://github.com/jminjares4/IPIA_FREERTOS/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/jminjares4/IPIA_FREERTOS/actions/workflows/pages/pages-build-deployment)
+[![Doxygen Action](https://github.com/jminjares4/IPIA_FREERTOS/actions/workflows/main.yml/badge.svg)](https://github.com/jminjares4/IPIA_FREERTOS/actions/workflows/main.yml)
+[![pages-build-deployment](https://github.com/jminjares4/IPIA_FREERTOS/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/jminjares4/IPIA_FREERTOS/actions/workflows/pages/pages-build-deployment)
+[![GitHub Page](https://img.shields.io/badge/active-34c855.svg?style=flat&logo=github&logoColor=949da5&label=GitHub%20Page&labelColor=3f4851)](https://jminjares4.github.io/IPIA_FREERTOS/)
 
 ## **Description**
 This is the source code of our `(Spring-Fall 2020)` capstone project for Electrical and Computer Engineering department at **`University of Texas at El Paso`** ***`(UTEP)`***.
