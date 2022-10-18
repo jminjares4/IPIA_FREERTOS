@@ -1,5 +1,5 @@
 <map id="Firmware/inc/SG90.h" name="Firmware/inc/SG90.h">
-<area shape="rect" id="node1" title="SG90 Driver." alt="" coords="98,5,242,32"/>
-<area shape="rect" id="node2" href="$d2/d54/_s_g90_8c.html" title="SG90 driver source code." alt="" coords="5,80,172,107"/>
-<area shape="rect" id="node3" href="$d0/ddc/ipia_8c.html" title="IPIA main." alt="" coords="196,80,307,107"/>
+<area shape="rect" id="node1" title="SG90 Driver." alt="" coords="98,5,242,31"/>
+<area shape="rect" id="node2" href="$d2/d54/_s_g90_8c.html" title="SG90 driver source code." alt="" coords="5,79,172,104"/>
+<area shape="rect" id="node3" href="$d0/ddc/ipia_8c.html" title="IPIA main." alt="" coords="196,79,307,104"/>
 </map>

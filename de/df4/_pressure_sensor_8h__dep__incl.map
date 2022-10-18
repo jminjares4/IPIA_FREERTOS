@@ -1,5 +1,5 @@
 <map id="Firmware/inc/PressureSensor.h" name="Firmware/inc/PressureSensor.h">
-<area shape="rect" id="node1" title="Pressure sensor driver." alt="" coords="73,5,277,32"/>
-<area shape="rect" id="node2" href="$df/d79/_pressure_sensor_8c.html" title="Pressure Sensor driver source code." alt="" coords="5,80,180,121"/>
-<area shape="rect" id="node3" href="$d0/ddc/ipia_8c.html" title="IPIA main." alt="" coords="204,87,315,114"/>
+<area shape="rect" id="node1" title="Pressure sensor driver." alt="" coords="73,5,277,31"/>
+<area shape="rect" id="node2" href="$df/d79/_pressure_sensor_8c.html" title="Pressure Sensor driver source code." alt="" coords="5,79,180,119"/>
+<area shape="rect" id="node3" href="$d0/ddc/ipia_8c.html" title="IPIA main." alt="" coords="204,86,315,111"/>
 </map>

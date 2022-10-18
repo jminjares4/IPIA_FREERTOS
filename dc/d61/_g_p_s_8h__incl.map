@@ -1,8 +1,8 @@
 <map id="Firmware/inc/GPS.h" name="Firmware/inc/GPS.h">
-<area shape="rect" id="node1" title="GPS NMEA custom API." alt="" coords="139,5,278,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,80,68,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="92,80,152,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="177,80,241,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="265,80,339,107"/>
-<area shape="rect" id="node6" title=" " alt="" coords="363,80,430,107"/>
+<area shape="rect" id="node1" title="GPS NMEA custom API." alt="" coords="139,5,278,31"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,79,68,104"/>
+<area shape="rect" id="node3" title=" " alt="" coords="92,79,152,104"/>
+<area shape="rect" id="node4" title=" " alt="" coords="177,79,241,104"/>
+<area shape="rect" id="node5" title=" " alt="" coords="265,79,339,104"/>
+<area shape="rect" id="node6" title=" " alt="" coords="363,79,430,104"/>
 </map>
