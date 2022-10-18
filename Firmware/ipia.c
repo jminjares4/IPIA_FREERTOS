@@ -162,5 +162,5 @@ void *gpsThread(void *arg0){
 //        Display_printf(displayHandle,0,0,"%c[2J%c[H",27,27);
 //        Display_printf(displayHandle,0,0,"UTC_TIME: %02u:%02u:%02u:%02u\n", sysTime.hour, sysTime.minute, sysTime.second, sysTime.milli);
         usleep(50000);
-    };
+    }
 }
